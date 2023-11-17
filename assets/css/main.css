@@ -2978,4 +2978,10 @@ section {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust shadow properties as needed */
 }
 
+/* Add bottom padding to cards in mobile view */
+@media (max-width: 767px) {
+  .recent-posts .custom-card {
+    margin-bottom: 20px; /* Adjust the bottom margin as needed */
+  }
+}
 
