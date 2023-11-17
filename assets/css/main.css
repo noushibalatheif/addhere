@@ -2941,3 +2941,11 @@ section {
     color: #fff; /* Icon color */
   }
   
+  /* Media query for mobile devices */
+@media (max-width: 991px) {
+  /* Add padding to the navbar */
+  .navmenu {
+    padding-top: 15px; /* Adjust the top padding as needed */
+    padding-bottom: 15px; /* Adjust the bottom padding as needed */
+  }
+}
