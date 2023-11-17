@@ -2949,3 +2949,33 @@ section {
     padding-bottom: 15px; /* Adjust the bottom padding as needed */
   }
 }
+
+/* Add rounded bottom corners to the cards */
+.recent-posts .custom-card {
+  border-radius: 10px 10px 10px 10px; /* Adjust the radius as needed */
+  overflow: hidden;
+}
+
+/* Optional: Add a shadow or border for better visual separation */
+.recent-posts .custom-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow */
+  /* Or add a border */
+  /* border: 1px solid #ccc; */
+}
+
+/* Set a fixed height for the cards */
+.recent-posts .custom-card {
+  height: 250px; /* Adjust the height value as needed */
+}
+
+/* Add a hover effect with shadow to the cards */
+.recent-posts .custom-card {
+  transition: box-shadow 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Apply shadow on hover */
+.recent-posts .custom-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust shadow properties as needed */
+}
+
+
